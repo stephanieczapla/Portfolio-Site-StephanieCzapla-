@@ -1,0 +1,126 @@
+/*
+Brand Colors:
+  Minion Yellow #FFE74C 255,231, 76
+  Fiery Rose #FF5964 255, 89, 100
+  White #FFFFFF 255, 255, 255
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #4a4a4a
+}
+
+header {
+
+}
+
+div.hero {
+  background-color: #FFEBEC;
+  padding: 10px;
+  text-align: center;
+}
+
+div.work-projects {
+  text-align: center;
+}
+
+div.project{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+div.contact {
+  text-align: center;
+}
+
+h1, h2, h3, h4{
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%
+}
+
+a {
+  color: #ff5964;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #ffe74c;
+  text decoration: underline;
+}
+
+a:visited {
+  color: #A3000B;
+}
+
+a:active {
+  color: #ffe74c;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff5964;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #A3000B;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.button:active {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: #ffffff;
+  color: #ff5964;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.button.contact:hover {
+  background-color: #ffe74c;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.button.contact:active {
+  opacity: 1;
+  text-decoration: none;
+}
