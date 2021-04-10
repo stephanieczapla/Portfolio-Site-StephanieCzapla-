@@ -28,9 +28,17 @@ div.work-projects {
   text-align: center;
 }
 
+div.about {
+  text-align: center;
+}
+
 div.project{
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+div.project-entire{
+  text-align: center;
 }
 
 div.contact {
