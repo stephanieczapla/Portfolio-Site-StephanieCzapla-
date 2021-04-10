@@ -15,7 +15,7 @@ body {
 }
 
 header {
-
+  background-color: #ffffff;
 }
 
 div.hero {
@@ -60,6 +60,12 @@ h3 {
 h4 {
   font-size: 1.25em;
   font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 100
+  line-height: 1.8;
 }
 
 img {
