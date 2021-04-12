@@ -4,6 +4,9 @@ Brand Colors:
   Fiery Rose #FF5964 255, 89, 100
   White #FFFFFF 255, 255, 255
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffffff;
@@ -15,16 +18,26 @@ body {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(61, 0, 4, 0.35);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(61, 0, 4, 0.35);
+  box-shadow: 0px 5px 5px 0px rgba(61, 0, 4, 0.35);
 }
 
 div.hero {
   background-color: #FFEBEC;
-  padding: 10px;
+  padding: 50px 10px;
   text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
-div.work-projects {
+div.work{
   text-align: center;
 }
 
@@ -34,7 +47,6 @@ div.about {
 
 div.project{
   padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 div.project-entire{
@@ -137,4 +149,64 @@ a:active {
 .button.contact:active {
   opacity: 1;
   text-decoration: none;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D6D6D6;
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FF5964;
+}
+
+nav > ul > li > a:visited {
+  color: #A3000B;
+}
+
+nav > ul > li > a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+nav > ul > li > a:active{
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+main{
+  padding-top: 133px;
 }
