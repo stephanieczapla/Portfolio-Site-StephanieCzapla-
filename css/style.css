@@ -100,7 +100,7 @@ a {
 a:hover,
 a:focus {
   color: #ffe74c;
-  text decoration: underline;
+  text-decoration: underline;
 }
 
 a:visited {
