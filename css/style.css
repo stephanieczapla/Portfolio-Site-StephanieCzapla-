@@ -4,6 +4,7 @@ Brand Colors:
   Fiery Rose #FF5964 255, 89, 100
   White #FFFFFF 255, 255, 255
 */
+
 * {
   box-sizing: border-box;
 }
@@ -209,4 +210,22 @@ nav > ul > li > a:active{
 
 main{
   padding-top: 133px;
+}
+
+/* =====
+Medium devices (640px or larger)
+===== */
+@media only screen and (min-width: 640px) {
+}
+
+/* =====
+Large devices (1024px or larger)
+===== */
+@media only screen and (min-width: 1024px) {
+}
+
+/* =====
+X-large devices (1440px or larger)
+===== */
+@media only screen and (min-width: 1440px){
 }
