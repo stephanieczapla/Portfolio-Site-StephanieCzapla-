@@ -254,6 +254,10 @@ Medium devices (640px or larger)
     font-size: 18px;
   }
 
+  ul.ba {
+    list-style-type: none;
+  }
+
   .col-md-6 {
     width: 50%;
   }
