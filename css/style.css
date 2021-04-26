@@ -20,7 +20,7 @@ body {
 
 header {
   background-color: #F5F5F5;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   display: inline-block;
   width: 100%;
   position: fixed;
@@ -218,6 +218,7 @@ display: none;
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -242,7 +243,7 @@ nav > ul > li > a:active{
 }
 
 main{
-  padding-top: 133px;
+  padding-top: 56px;
 }
 
 /* =====
@@ -289,6 +290,10 @@ Medium devices (640px or larger)
 For the purpose of Exercise 2.3:
 ===== */
 @media only screen and (min-width: 641px) {
+  nav > ul {
+  margin: 1em 0;
+  }
+
   nav > ul > li {
     display: inline-block;
   }
