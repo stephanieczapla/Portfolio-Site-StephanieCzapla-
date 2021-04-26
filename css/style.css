@@ -205,10 +205,6 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
-
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -274,6 +270,14 @@ Medium devices (640px or larger)
   }
 }
 
+/* =====
+For the purpose of Exercise 2.3:
+===== */
+@media only screen and (min-width: 641px) {
+  nav > ul > li {
+    display: inline-block;
+  }
+}
 /* =====
 Large devices (1024px or larger)
 ===== */
