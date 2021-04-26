@@ -189,6 +189,16 @@ display: none;
   font-size: 20px;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+  padding: 20px 0;
+  border-top: 1px #ff5964;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 /* Layout styling */
 
 .container {
