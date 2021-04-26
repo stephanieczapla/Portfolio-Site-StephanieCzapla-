@@ -20,6 +20,7 @@ body {
 
 header {
   background-color: #F5F5F5;
+  text-align: center;
   padding: 10px 0;
   display: inline-block;
   width: 100%;
@@ -205,6 +206,10 @@ nav > ul {
   padding: 0;
 }
 
+nav > ul > li {
+  display: inline-block;
+}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -226,10 +231,6 @@ nav > ul > li > a:active{
   text-decoration: none;
 }
 
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
 main{
   padding-top: 133px;
 }
@@ -237,7 +238,7 @@ main{
 /* =====
 Medium devices (640px or larger)
 ===== */
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -255,18 +256,6 @@ Medium devices (640px or larger)
 
   ul.ba {
     list-style-type: none;
-  }
-
-  nav > ul > li {
-    display: inline-block;
-  }
-
-  .navtoggle li:not(:last-child) {
-  display: inline-block;
-  }
-
-  .navtoggle li:last-child {
-  display: none;
   }
 
   .col-md-6 {
