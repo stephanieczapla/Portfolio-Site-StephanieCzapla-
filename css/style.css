@@ -243,6 +243,10 @@ nav > ul > li > a:active{
   text-decoration: none;
 }
 
+.fas {
+  color: #ffffff;
+}
+
 main{
   padding-top: 56px;
 }
