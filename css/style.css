@@ -4,18 +4,17 @@ Brand Colors:
   Fiery Rose #FF5964 255, 89, 100
   White #FFFFFF 255, 255, 255
 */
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.8;
-  color: #4a4a4a
+  color: #4a4a4a;
 }
 
 header {
@@ -24,9 +23,9 @@ header {
   display: inline-block;
   width: 100%;
   position: fixed;
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(61, 0, 4, 0.35);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(61, 0, 4, 0.35);
-  box-shadow: 0px 5px 5px 0px rgba(61, 0, 4, 0.35);
+  -webkit-box-shadow: 0 5 5 0 rgba(61, 0, 4, 0.35);
+  -moz-box-shadow: 0 5 5 0 rgba(61, 0, 4, 0.35);
+  box-shadow: 0 5 5 0 rgba(61, 0, 4, 0.35);
 }
 
 div.hero {
@@ -38,22 +37,19 @@ div.hero {
 }
 
 div.hero-category {
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding: 22px 10px;
   text-align: center;
   display: block;
   width: 100%;
 }
 
-div.work{
+div.work {
   text-align: center;
 }
 
 div.about {
   text-align: center;
-}
-
-div.project{
 }
 
 div.project-entire {
@@ -65,7 +61,10 @@ div.contact {
   text-align: center;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -97,7 +96,7 @@ p {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 .sun {
@@ -136,7 +135,7 @@ a:focus {
 }
 
 a:visited {
-  color: #A3000B;
+  color: #a3000b;
 }
 
 a:active {
@@ -151,11 +150,11 @@ img.interior:hover {
 .button {
   display: inline-block;
   background-color: #ff5964;
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #A3000B;
+  border-bottom: 4px solid #a3000b;
   transition: 0.3s opacity;
 }
 
@@ -170,10 +169,10 @@ img.interior:hover {
 }
 
 .button.contact {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #ff5964;
   text-transform: uppercase;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   border-radius: 10px;
 }
 
@@ -189,7 +188,6 @@ img.interior:hover {
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
@@ -197,16 +195,16 @@ img.interior:hover {
 .row {
   margin: 25px 0;
   padding-bottom: 25px;
-  border-bottom: 1px solid #D6D6D6;
+  border-bottom: 1px solid #d6d6d6;
 }
 
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #D6D6D6;
+  border-bottom: 1px solid #d6d6d6;
   text-align: center;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -221,14 +219,14 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  padding: 15px 15px;
+  padding: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FF5964;
+  color: #ff5964;
 }
 
 nav > ul > li > a:visited {
-  color: #A3000B;
+  color: #a3000b;
 }
 
 nav > ul > li > a:hover {
@@ -236,27 +234,28 @@ nav > ul > li > a:hover {
   text-decoration: none;
 }
 
-nav > ul > li > a:active{
+nav > ul > li > a:active {
   opacity: 0.7;
   text-decoration: none;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
 .navtoggle li:not(:last-child) {
-display: none;
+  display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #fff;
 }
 
 .navtoggle.responsive nav {
@@ -272,30 +271,30 @@ display: none;
 }
 
 .fas {
-  color: #ffffff;
+  color: #fff;
 }
 
 .video-container {
-    overflow: hidden;
-    position: relative;
-    width:100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
+  padding-top: 56.25%;
+  display: block;
+  content: '';
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-main{
+main {
   padding-top: 56px;
 }
 
@@ -360,18 +359,18 @@ For the purpose of Exercise 2.3:
   }
 
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
 
   .navtoggle li:not(:last-child) {
-  display: inline-block;
+    display: inline-block;
   }
 
   nav > ul {
-  margin: 1em 0;
+    margin: 1em 0;
   }
-
 }
+
 /* =====
 Large devices (1024px or larger)
 ===== */
@@ -386,38 +385,53 @@ Large devices (1024px or larger)
 /* =====
 X-large devices (1440px or larger)
 ===== */
-@media only screen and (min-width: 1440px) {
-}
 
 /* =====
 Extra-large devices (1920px or larger)
 ===== */
 @media only screen and (min-width: 1920px) {
-}
+  [class*="col-"] {
+    float: left;
+    padding: 0 10;
+  }
 
-[class*="col-"] {
-  float: left;
-  padding: 0px 10px;
-}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  @keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
 
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+    50% {
+      fill: #fcffad;
+    }
+
+    100% {
+      fill: #f76414;
+    }
+  }
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px, 50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px, 48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
